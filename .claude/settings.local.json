@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(ls i:/Developments/cowork-prompts/nanobanana-prompt/skills/*/SKILL.md)"
+      "Bash(ls i:/Developments/cowork-prompts/nanobanana-prompt/skills/*/SKILL.md)",
+      "WebSearch"
     ]
   }
 }
