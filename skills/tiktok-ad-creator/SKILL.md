@@ -7,14 +7,81 @@ description: >
   "ASMR", "UGC video", "video bán hàng", "content creator", or needs a complete image-to-video
   advertising workflow for social media platforms.
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # TikTok / Reels Ad Creator
 
 Generate complete prompt packages: Nano Banana 2 (first frame image) + Kling/Veo 3 (motion video) — ready for TikTok, Instagram Reels, YouTube Shorts advertising.
 
-## How This Works
+---
+
+## Phase 1: Discovery & Campaign Planning (ALWAYS run this first)
+
+Before generating any prompts, you MUST run the discovery phase. Never skip straight to templates.
+
+### Step 1 — Gather the Brief
+
+Use AskUserQuestion to collect (ask all at once, not one by one):
+
+1. **Product / Subject** — What is being promoted? (product name, category, key feature)
+2. **Target audience** — Who is this for? (age, gender, lifestyle, pain points)
+3. **Platform & format** — TikTok / Reels / Shorts? Single clip or multi-clip series?
+4. **Ad objective** — Awareness, desire, click-to-buy, review trust, or viral reach?
+5. **Tone & aesthetic** — Aspirational? Authentic UGC? ASMR? Playful? Luxury?
+6. **Audio needs** — Does the ad need voiceover, dialogue, or sound effects? (determines Kling vs Veo 3)
+7. **Any references** — Competitor ads, mood boards, color palette, or visual style they like?
+
+### Step 2 — Build the Campaign Brief
+
+Synthesize the answers into a structured brief and **present it to the user for confirmation** before continuing:
+
+```
+CAMPAIGN BRIEF
+--------------
+Product:       [name + key visual differentiator]
+Target:        [audience description]
+Platform:      [platform(s) + aspect ratio]
+Objective:     [awareness / desire / purchase / trust]
+Tone:          [aesthetic + mood keywords]
+Video engine:  [Kling / Veo 3 / Both — with reasoning]
+Ad type(s):    [unboxing / review / lifestyle / etc.]
+Duration:      [hook length + total ad length]
+Audio:         [yes/no, type]
+```
+
+Ask: *"Đây có đúng hướng không? Hay bạn muốn điều chỉnh gì trước khi mình bắt đầu?"*
+
+### Step 3 — Propose the Content Plan
+
+Once the brief is confirmed, propose a concrete execution plan **before generating prompts**:
+
+```
+CONTENT PLAN
+------------
+Clip 1 — Hook (1-2s):   [describe the scroll-stopper moment + which template to use]
+Clip 2 — Setup (2-3s):  [describe the scene + engine choice]
+Clip 3 — Product (2s):  [describe how product is introduced]
+Clip 4 — Demo (3s):     [describe product in action]
+Clip 5 — Result (2s):   [describe the payoff moment]
+Clip 6 — CTA (1s):      [hero shot + CTA text overlay area]
+
+Engine recommendation:  Kling for clips [X, Y] / Veo 3 for clips [X, Y] — [reason]
+Hook strategy:          [which hook type and why]
+Estimated total:        ~[X] seconds
+```
+
+Ask: *"Mình có thể điều chỉnh số clip, thứ tự, hoặc thay đổi cách tiếp cận hook. Bạn muốn giữ nguyên hay chỉnh gì không?"*
+
+### Step 4 — Generate Prompts
+
+Only after the user approves the plan, generate the full prompt packages for each clip following the approved content plan. Use the templates in Phase 2 below.
+
+If the user only needs **one specific clip** (not a full series), skip the multi-clip plan and generate that single package directly after brief confirmation.
+
+---
+
+## Phase 2: Prompt Package Templates
 
 Each "prompt package" includes:
 1. **Nano Banana 2 prompt** — generates the perfect first frame image
@@ -291,25 +358,14 @@ The first frame is critical for TikTok. Design the Nano Banana 2 image to be a "
 | **ASMR trigger** | Close-up of satisfying texture, packaging detail | Sensory anticipation |
 | **Relatable setup** | Mirror selfie, desk setup, "POV" angle | Viewer identifies with the scenario |
 
-## Multi-Clip Campaign Workflow
+## Multi-Clip Campaign Notes
 
-For a complete TikTok ad campaign with multiple clips:
+For campaigns with a recurring character across clips, remind the user to run the **character-consistency** skill first to generate a Character DNA before generating individual frames.
 
-```
-1. DEFINE: Campaign brief (product, target audience, mood, CTA)
-2. CHARACTER: Use character-consistency skill if same person appears
-3. STORYBOARD: Plan 3-6 clips that tell a mini-story
-4. GENERATE FRAMES: Create each first-frame with Nano Banana 2
-5. ANIMATE: Choose Kling (camera control) or Veo 3 (audio) per clip
-6. SEQUENCE:
-   - Clip 1: Hook (1-2 sec) — scroll-stopper moment
-   - Clip 2: Problem/Setup (2-3 sec) — relatable scenario
-   - Clip 3: Product intro (2-3 sec) — natural reveal
-   - Clip 4: Demo/Proof (3-5 sec) — product in action
-   - Clip 5: Result/Reaction (2-3 sec) — satisfaction
-   - Clip 6: CTA (1-2 sec) — product hero + text
-7. EDIT: Combine clips, add text overlays, trending audio
-```
+After all clips are generated, suggest editing sequence:
+- Arrange: Hook → Setup → Product intro → Demo → Result → CTA
+- Add text overlays in safe zones (top 15%, bottom 20%)
+- Sync audio: trending sound for TikTok, voiceover for Reels
 
 ## Platform-Specific Tips
 

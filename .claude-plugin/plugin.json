@@ -1,7 +1,7 @@
 {
   "name": "nano-banana-prompt-studio",
-  "version": "0.2.0",
-  "description": "Professional AI visual content studio: Nano Banana 2 image prompts + Kling 3.0 & Veo 3 video motion prompts. Covers lifestyle, fashion, food, skincare, commerce with character consistency, brand style guides, TikTok/Reels ad workflows, and complete image-to-video pipelines.",
+  "version": "0.4.0",
+  "description": "Professional AI visual content studio: Nano Banana 2 image prompts + unified video-motion skill covering Kling 3.0 & Veo 3. Includes image analysis and variant generation from reference photos. Covers lifestyle, fashion, food, skincare, commerce with character consistency, brand style guides, TikTok/Reels ad workflows, and complete image-to-video pipelines.",
   "author": {
     "name": "SageHaki"
   },

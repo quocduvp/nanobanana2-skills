@@ -19,13 +19,13 @@ Turn your ideas into production-ready prompts for the full content pipeline: gen
 | **Skincare & Beauty** | "skincare", "beauty", "mỹ phẩm", "serum" | Skincare products, makeup editorial, wellness |
 | **Lifestyle Campaign** | "lifestyle", "campaign", "brand content", "banner" | Brand heroes, social media, travel, wellness |
 | **Character Consistency** | "consistency", "same character", "nhất quán" | Character DNA, Brand Style Guides, Product Profiles |
+| **Image Analysis** | "phân tích ảnh", "clone", "tạo biến thể", "giống ảnh này", "reverse prompt" | Analyze reference image → reconstruct prompt → generate clones or variants |
 
 ## Skills — Video Motion (Kling 3.0 & Veo 3)
 
 | Skill | Trigger Examples | What It Does |
 |---|---|---|
-| **Video Motion Kling** | "Kling", "animate image", "video motion", "camera movement" | Kling 3.0 prompts: camera control, physics-driven motion, multi-shot sequences |
-| **Video Motion Veo 3** | "Veo", "video with audio", "cinematic video", "dialogue" | Veo 3 prompts: cinematic video + native audio (dialogue, SFX, music) |
+| **Video Motion** | "Kling", "Veo", "animate image", "video motion", "video with audio", "camera movement" | Kling 3.0 + Veo 3 prompts: camera control, physics-driven motion, audio, multi-shot sequences |
 | **TikTok Ad Creator** | "TikTok", "Reels", "unboxing", "review video", "UGC" | Complete prompt packages: NB2 frame + Kling/Veo 3 motion + ad frameworks |
 
 ## The Pipeline
