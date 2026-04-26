@@ -22,15 +22,15 @@ shadow below. iPhone commercial aesthetic. 9:16 vertical. No watermark.
 
 ### KLING — Motion
 ```
-Hand lifts the shoe from the reference image up into frame, holding it
-at eye level by the heel. Slowly rotates it from side profile to 3/4
-front angle to toe-down view — smooth 180-degree rotation over 4 seconds.
-Pauses briefly at the most visually striking angle to let the design
-catch the light. Gentle product lighting shifts as the shoe rotates.
-Static camera, very slight push-in during the pause moment.
+Hand holds the shoe from the reference image up at eye level by the heel.
+The hand sways gently left and right — slow, subtle rocking motion that
+lets the shoe catch the light from different angles. No full rotation.
+The shoe stays mostly in side profile throughout, with only a slight
+tilt forward and back. Calm, confident product presentation energy.
+Static camera, very slight push-in.
 
 Negative: no shoe deformation, no logo warping, no extra fingers, no
-color shift, no flickering, no background movement
+full rotation, no color shift, no flickering, no background movement
 ```
 
 ---
