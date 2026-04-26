@@ -51,3 +51,25 @@ If the skill references a file in its `references/` folder, read that too when n
 - Answer prompt engineering questions directly without loading a skill file
 - If asked what this plugin can do, summarize the skill registry above
 - If asked to improve or fix an existing prompt, apply the prompt formula from `prompt-generator` without necessarily loading the full skill file
+
+---
+
+## User Persona & Learned Preferences
+
+### TikTok Affiliate Style (No-Face Product Videos)
+- **Luôn tránh** các action dễ gây ảo giác AI: mở nắp/flip lid, xoay sản phẩm, lau/demo tay, tương tác phức tạp với bao bì
+- **Motion tối giản là chuẩn**: tay chạm nhẹ, nhấc sản phẩm lên gần lens, giữ yên — không cần hơn
+- **Không cần demo sử dụng**: affiliate TikTok chỉ cần sản phẩm trước màn hình, góc quay đơn giản
+- **CapCut xử lý editing**: không cần căn editing trong prompt, chỉ cần raw scene đẹp
+- **2 scene là đủ** để cắt ghép: (1) sản phẩm trên bàn + tay chạm, (2) cầm sản phẩm đưa gần lens
+- **Mỗi scene 8 giây**, voiceover thu riêng 10 giây, ghép sau
+
+### Persona tay xuất hiện trong video
+- Tay phụ nữ châu Á
+- Đeo Apple Watch (silver, light band)
+- Không lộ mặt
+
+### Baby Wipes Product (3T + Safety Baby Wipes)
+- 3 variant màu: hồng (3T), cam (3T), xanh ngọc (Safety Baby Wipes)
+- Key claims: Không mùi · Không cồn · No Paraben · Kháng khuẩn · An toàn cho bé sơ sinh
+- Thương hiệu: 3T (cartoon bear mascot) + Safety Baby Wipes (赤ちゃんにやさしい)
