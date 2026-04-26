@@ -90,6 +90,11 @@ Each "prompt package" includes:
 4. **Negative prompts** — prevents common artifacts
 5. **Editing notes** — post-production tips
 
+> **Image-to-Video rule:** Kling and Veo 3 prompts below assume a reference image exists.
+> Keep motion prompts to **3–5 lines**. Never re-describe colors, logos, text, props,
+> lighting, or background — the model already sees the image. Only describe:
+> what moves, camera behavior, preservation constraints, and audio (Veo 3 only).
+
 ## TikTok Ad Format Specs
 
 - **Aspect ratio**: 9:16 (1080x1920)

@@ -40,7 +40,36 @@ Step 3: Write motion prompt focusing on movement + camera + (audio for Veo 3)
 Step 4: Generate 5-10 second video clip
 ```
 
-**Critical rule for Image-to-Video:** Describe only what MOVES and how the CAMERA behaves — do not re-describe the scene. The model already sees it in the image.
+---
+
+## Image-to-Video Prompt Formula (CRITICAL)
+
+When a reference image is provided, the model already sees every visual detail.
+**Do NOT re-describe** colors, logos, text, props, lighting, background, or clothing.
+Re-describing creates noise and drifts the output away from the reference.
+
+**Only write:**
+1. What moves — direction, speed, distance
+2. Camera behavior — static / push-in / hold
+3. What must NOT change — preservation constraints
+4. Audio (Veo 3 only) — short and separate
+
+**Lean prompt (CORRECT):**
+```
+Hand raises product slowly toward lens. Pack stays face-forward, no rotation.
+Camera static. Hold when product fills 80% frame.
+Audio: quiet room tone. (no music) (no subtitles)
+```
+
+**Noisy prompt (WRONG — causes AI drift):**
+```
+An Asian woman's hand holding the teal Safety Baby Wipes pack with both
+fingers along the sides — pack facing directly toward camera, text fully
+readable, fills 60% of frame, soft blurred white wall background, diffused
+indoor light from the front-left, shot on iPhone 15 Pro...
+```
+
+> Rule of thumb: If the reference image is provided, your motion prompt should fit in 3–5 lines.
 
 ---
 
@@ -48,15 +77,16 @@ Step 4: Generate 5-10 second video clip
 
 ### Prompt Formula
 
-**Text-to-Video:**
+**Text-to-Video (no reference image):**
 ```
 [Subject Description] + [Subject Movement] + [Scene/Environment] + [Camera Movement] + [Lighting/Atmosphere]
 ```
 
-**Image-to-Video (primary use case):**
+**Image-to-Video (reference image provided — use this format):**
 ```
-[Subject Movement] + [Camera Movement] + [Atmospheric Motion]
+[What moves + how] + [Camera behavior] + [Preservation constraints]
 ```
+Keep to 3–5 lines. Never re-describe what's visible in the image.
 
 ### Templates by Video Type
 
@@ -197,11 +227,19 @@ Read `references/camera-motion-cheatsheet.md` for tested camera movements with r
 
 ### Prompt Formula
 
+**Text-to-Video (no reference image):**
 ```
 [Camera/Cinematography] + [Subject] + [Action] + [Setting/Context] + [Style & Lighting] + [Audio Direction]
 ```
 
-**Key difference from Kling:** Write Veo 3 prompts like a **mini screenplay** — more narrative, with audio cues embedded.
+**Image-to-Video (reference image provided):**
+```
+[What moves + how] + [Camera behavior] + [Preservation constraints]
+Audio: [short audio direction]
+```
+Same rule as Kling: 3–5 lines max. Audio section is the only place to add detail.
+
+**Key difference from Kling:** Write Veo 3 Text-to-Video prompts like a **mini screenplay** — more narrative, with audio cues embedded. For Image-to-Video, stay lean.
 
 ### Templates by Video Type
 

@@ -56,6 +56,13 @@ If the skill references a file in its `references/` folder, read that too when n
 
 ## User Persona & Learned Preferences
 
+### Image-to-Video Prompt Writing
+- **Lean = better**: Khi có ảnh ref, chỉ viết motion + camera + preservation — **không bao giờ** mô tả lại màu sắc, logo, text, props, lighting đã thấy trong ảnh
+- **3–5 dòng là đủ** cho một Image-to-Video prompt
+- **Mô tả thừa = nhiễu**: AI drift khỏi ref image khi prompt quá verbose
+- Format chuẩn: `[cái gì chuyển động + cách nào] + [camera] + [giữ nguyên gì] + Audio (Veo 3)`
+- Xem ví dụ lean vs noisy trong `skills/video-motion/SKILL.md`
+
 ### TikTok Affiliate Style (No-Face Product Videos)
 - **Luôn tránh** các action dễ gây ảo giác AI: mở nắp/flip lid, xoay sản phẩm, lau/demo tay, tương tác phức tạp với bao bì
 - **Motion tối giản là chuẩn**: tay chạm nhẹ, nhấc sản phẩm lên gần lens, giữ yên — không cần hơn
