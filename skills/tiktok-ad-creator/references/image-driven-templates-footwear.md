@@ -12,22 +12,24 @@ and branding automatically.
 
 ### NANO BANANA 2 — Keyframe
 ```
-Close-up shot of a hand gripping the heel collar of the sneaker shown in
-the reference image — replicate exact colorway, upper design, sole shape,
-and all branding/logos exactly as shown. The shoe is held up at eye level,
-side profile facing camera. Clean neutral studio background — soft grey
-or white gradient. Dramatic product lighting from upper left with soft
-shadow below. iPhone commercial aesthetic. 9:16 vertical. No watermark.
+Close-up shot of a hand holding the sneaker from the reference image
+from underneath — palm and fingers supporting the sole from below,
+thumb along the side. The shoe is angled diagonally toward camera,
+toe pointing up-left, showing the full upper design and side profile.
+Replicate exact colorway, upper mesh, sole shape, and all branding/logos
+exactly as shown in reference. Background: softly blurred shoe store
+interior with warm shelf lighting, or clean neutral studio. Natural
+indoor lighting. iPhone UGC aesthetic. 9:16 vertical. No watermark.
 ```
 
 ### KLING — Motion
 ```
-Hand holds the shoe from the reference image up at eye level by the heel.
-The hand sways gently left and right — slow, subtle rocking motion that
-lets the shoe catch the light from different angles. No full rotation.
-The shoe stays mostly in side profile throughout, with only a slight
-tilt forward and back. Calm, confident product presentation energy.
-Static camera, very slight push-in.
+Hand supports the shoe from the reference image from underneath — palm
+under the sole. The wrist sways gently, creating a slow subtle rocking
+motion left and right so the upper design catches the light naturally.
+No full rotation. The shoe stays in diagonal presentation angle
+throughout — toe up, heel down, upper facing camera. Calm, confident
+product presentation energy. Static camera, very slight push-in.
 
 Negative: no shoe deformation, no logo warping, no extra fingers, no
 full rotation, no color shift, no flickering, no background movement
